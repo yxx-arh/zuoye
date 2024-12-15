@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+html {
+    background-color: #5c3c23;
+    color: #fff;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.banner {
+    width: 100%;
+    height: 600px;
+    background: url('../image/ban.webp');
+    background-position: 100% 100%;
+
+}
+
+.nav {
+    width: 100%;
+    height: 80px;
+
+}
+
+.nav .left {
+    width: 20%;
+    float: left;
+}
+
+.nav .center {
+    width: 50%;
+    float: left;
+}
+
+.nav .right {
+    width: 30%;
+    padding-top: 1.5%;
+    float: left;
+}
+
+.nav .left img {
+    width: 80px;
+    height: 80px;
+    margin-left: 20%;
+    display: block;
+}
+
+
+.nav .center ul {
+    list-style: none;
+
+    height: 100%;
+}
+
+.nav .center ul li {
+    width: 20%;
+    text-align: center;
+    height: 100%;
+    color: #002824;
+    font-size: 18px;
+    line-height: 80px;
+    font-weight: bold;
+    float: left;
+}
+
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+}
+
+.nav .center ul li a {
+    color: #fff;
+}
+
+.nav .right input {
+    height: 10px;
+    width: 60%;
+    padding: 15px;
+}
+
+.nav .right button {
+    width: 20%;
+    height: 35px;
+    background: #000;
+    color: white;
+    border: none;
+}
+
+.jianjie {
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.jianjie .left {
+    width: 40%;
+    float: left;
+}
+
+.jianjie .left img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.jianjie .right {
+    width: 58%;
+    float: right;
+}
+
+.jianjie .right h3 {
+    width: 100%;
+    background: #5c3c23;
+    color: white;
+    padding: 10px;
+}
+
+.jianjie .right p {
+    line-height: 40px;
+}
+
+h3.title {
+    width: 100%;
+    padding: 10px;
+    background: #5c3c23;
+    color: white;
+    margin: 20px 0px;
+}
+
+
+.hotcity .item {
+    width: 32%;
+    margin-top: 20px;
+    float: left;
+    margin-right: 1%;
+
+}
+
+.hotcity .item img {
+    width: 100%;
+    height: 300px;
+}
+
+.hotcity .item h3 {
+    margin: 10px 0px;
+}
+
+.hotcity .item p {
+    line-height: 30px;
+}
+
+.wenhua .title {
+    border: 3px solid #fff;
+    margin-top: 20px;
+}
+
+.wenhua .title h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.wenhua .title p {
+    line-height: 60px;
+
+    padding: 20px;
+}
+
+.wenhua .title img {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+
+
+.wenhua .imgs img {
+    width: 32%;
+    height: 220px;
+    margin-top: 20px;
+    margin-right: 1%;
+}
+
+.meishi h3 {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.meishi p {
+    line-height: 45px;
+
+    padding: 20px;
+}
+
+.meishi video {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.meishi .title {
+    border: 3px solid #fff;
+    margin-top: 20px;
+}
+
+.wenhua .ct {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.wenhua .ct .item {
+    width: 24%;
+    float: left;
+    margin-right: 1%;
+}
+
+.wenhua .ct .item img {
+    width: 100%;
+    height: 200px;
+}
+
+.wenhua .ct .item h3 {
+    text-align: center;
+    padding: 10px 0px;
+    color: #fff;
+}
+
+.wenhua .ct .item p {
+    line-height: 30px;
+}
+
+.fd {
+    padding: 20px;
+
+}
+
+.fd h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.fd img {
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.fd p {
+    line-height: 60px;
+}
+
+.footer {
+    height: 80px;
+    line-height: 80px;
+    background: #000;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
